@@ -4,7 +4,7 @@ class Solution {
 
         while(lo<hi){
             int mid = (lo+hi)/2;
-            if(nums[mid]>nums[hi]){
+            if(nums[mid]>nums[hi]){// Note we are comparing this to get break point 
                 lo=mid+1;
             }else{
                 hi=mid;
